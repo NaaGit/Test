@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Inside the getPropValues()]]>
+    </line>
+    <line>
+      <![CDATA[Created object of Properties class]]>
+    </line>
+    <line>
+      <![CDATA[Assigning the resourcestream of properties file to inputstream]]>
+    </line>
+    <line>
+      <![CDATA[Returning the keyvalue:  C:\Bhargavi\maven\my-app\src\test\java\]]>
+    </line>
+    <line>
+      <![CDATA[Set the property succesfully for chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Opening chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Opening the URL ]]>
+    </line>
+    <line>
+      <![CDATA[Title for the page is:  Electronics Site | Homepage]]>
+    </line>
+    <line>
+      <![CDATA[Clearing any previous searches]]>
+    </line>
+    <line>
+      <![CDATA[searching for product camera]]>
+    </line>
+    <line>
+      <![CDATA[The results displayed are:]]>
+    </line>
+    <line>
+      <![CDATA[144 Products found]]>
+    </line>
+    <line>
+      <![CDATA[selected sort byprice (highest first)]]>
+    </line>
+    <line>
+      <![CDATA[https://hybris.covalense.net:9002/yacceleratorstorefront/electronics/en/search/?sort=price-desc&q=camera%3Arelevance#]]>
+    </line>
+    <line>
+      <![CDATA[successfully sorted the results by price (highest first)]]>
+    </line>
+    <line>
+      <![CDATA[adding firstcamerato the cart]]>
+    </line>
+    <line>
+      <![CDATA[Added to cart]]>
+    </line>
+    <line>
+      <![CDATA[added to the cart]]>
+    </line>
+    <line>
+      <![CDATA[Checkingout the product]]>
+    </line>
+    <line>
+      <![CDATA[Product successfully checkedout]]>
+    </line>
+  </reporter-output>
+  <suite name="Sample suite" duration-ms="44515" started-at="2018-08-08T06:12:06Z" finished-at="2018-08-08T06:12:51Z">
+    <groups>
+    </groups>
+    <test name="sample test1" duration-ms="44515" started-at="2018-08-08T06:12:06Z" finished-at="2018-08-08T06:12:51Z">
+      <class name="testpackage1.ProductSearchTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:testpackage1.ProductSearchTest@7159139f]" name="initializeTestBaseSetup" is-config="true" duration-ms="14710" started-at="2018-08-08T06:12:06Z" finished-at="2018-08-08T06:12:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://hybris.covalense.net:9002/yacceleratorstorefront/electronics/en/?site=electronics]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Inside the getPropValues()]]>
+            </line>
+            <line>
+              <![CDATA[Created object of Properties class]]>
+            </line>
+            <line>
+              <![CDATA[Assigning the resourcestream of properties file to inputstream]]>
+            </line>
+            <line>
+              <![CDATA[Returning the keyvalue:  C:\Bhargavi\maven\my-app\src\test\java\]]>
+            </line>
+            <line>
+              <![CDATA[Set the property succesfully for chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Opening chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Opening the URL ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testpackage1.ProductSearchTest@7159139f]" name="setUp" is-config="true" duration-ms="0" started-at="2018-08-08T06:12:21Z" finished-at="2018-08-08T06:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CheckOutProductTest(java.lang.String)[pri:0, instance:testpackage1.ProductSearchTest@7159139f]" name="CheckOutProductTest" duration-ms="29776" started-at="2018-08-08T06:12:21Z" finished-at="2018-08-08T06:12:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[camera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Title for the page is:  Electronics Site | Homepage]]>
+            </line>
+            <line>
+              <![CDATA[Clearing any previous searches]]>
+            </line>
+            <line>
+              <![CDATA[searching for product camera]]>
+            </line>
+            <line>
+              <![CDATA[The results displayed are:]]>
+            </line>
+            <line>
+              <![CDATA[144 Products found]]>
+            </line>
+            <line>
+              <![CDATA[selected sort byprice (highest first)]]>
+            </line>
+            <line>
+              <![CDATA[https://hybris.covalense.net:9002/yacceleratorstorefront/electronics/en/search/?sort=price-desc&q=camera%3Arelevance#]]>
+            </line>
+            <line>
+              <![CDATA[successfully sorted the results by price (highest first)]]>
+            </line>
+            <line>
+              <![CDATA[adding firstcamerato the cart]]>
+            </line>
+            <line>
+              <![CDATA[Added to cart]]>
+            </line>
+            <line>
+              <![CDATA[added to the cart]]>
+            </line>
+            <line>
+              <![CDATA[Checkingout the product]]>
+            </line>
+            <line>
+              <![CDATA[Product successfully checkedout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckOutProductTest -->
+      </class> <!-- testpackage1.ProductSearchTest -->
+    </test> <!-- sample test1 -->
+  </suite> <!-- Sample suite -->
+</testng-results>

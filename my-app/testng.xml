@@ -1,0 +1,14 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample suite">
+<parameter name="appURL" value="https://hybris.covalense.net:9002/yacceleratorstorefront/electronics/en/?site=electronics"/>
+<parameter name="browserType" value="chrome"/>
+<parameter name="product" value="camera"/>  
+  <test name="sample test1" preserve-order="false">
+    <classes>
+   <class name="testpackage1.ProductSearchTest"/>  
+  <!--    <class name="testpackage1.ShowResultsTest"/>      -->
+    </classes>
+  </test>
+  </suite>
+
