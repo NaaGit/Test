@@ -1,2 +1,0 @@
-From local git repo
-From git_test1
